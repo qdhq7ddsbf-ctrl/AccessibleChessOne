@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #ffffff; color: #171717; font: 1.125rem/1.65 system-ui, sans-serif; }
+header, main, footer { max-width: 48rem; margin: auto; padding: 1.5rem; }
+header { border-bottom: 2px solid #171717; }
+nav { display: flex; flex-wrap: wrap; gap: 1.25rem; }
+a { color: #0645ad; text-underline-offset: .2em; overflow-wrap: anywhere; }
+a:focus-visible { outline: 3px solid #171717; outline-offset: 4px; }
+h1 { font-size: 2rem; line-height: 1.2; overflow-wrap: anywhere; }
+h2 { font-size: 1.4rem; line-height: 1.3; margin-top: 2rem; }
+li { margin-block: .5rem; }
+footer { border-top: 1px solid #171717; }
+.skip { display: inline-block; margin: .5rem 1.5rem; }
